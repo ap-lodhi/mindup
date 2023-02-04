@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.container{
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+.btn button{
+   width: 20%;
+   padding: 15px;
+   background-color: rgb(66, 149, 15);
+   color: rgb(253, 253, 253);
+   
+}
+
+.btn button:hover{
+    width: 20%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    
+ }
