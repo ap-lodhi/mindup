@@ -48,12 +48,17 @@ export const Home = () => {
             <button onClick={SpeechRecognition.stopListening}>Stop</button>
             <button onClick={resetTranscript}>Reset</button>
             </div>
+            <div className='tags'>
+            <h1>English </h1>
+            <h1>Hindi</h1>
 
-            <p>{transcript}</p>
+            </div>
+
+            
             <textarea id="story" name="story" value={transcript}
-                rows="5" cols="33" placeholder='text will be  printed here  '
+                rows="10" cols="50" placeholder='ENGLISH TEXT WILL PRINTED HERE  '
 
-            >
+         className='field'   >
 
 
 
@@ -62,14 +67,14 @@ export const Home = () => {
             </textarea>
 
             <textarea id="story" name="story" value={translate}
-                rows="5" cols="33" placeholder='text will be  printed here'>
+                rows="10" cols="50" placeholder='HINDI TEXT WILL PRINTED HERE ' className='field2' >
 
 
 
 
             </textarea>
-
-            <button onClick={hindi}>tranlate</button>
+<br /><br /><br />
+            <button onClick={hindi} className="translate_btn">translate</button>
         </div>
     )
 }
